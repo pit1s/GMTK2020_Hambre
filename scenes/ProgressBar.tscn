@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scripts/ProgressBar.gd" type="Script" id=1]
+
+[node name="ProgressBar" type="ProgressBar"]
+margin_left = -32.0
+margin_top = 18.0
+margin_right = 32.0
+margin_bottom = 32.0
+step = 1.0
+rounded = true
+percent_visible = false
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
